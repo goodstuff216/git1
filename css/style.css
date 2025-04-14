@@ -1,0 +1,19 @@
+.body{
+    width:1440px;
+}
+.header{
+    display:flex;
+    font-family: "oswald";
+}
+.verh{
+
+}
+.menulink{
+    text-decoration: none;
+}
+.headerul{
+    list-style-type: none;
+}
+.headerli{
+    color: #fff;
+}
