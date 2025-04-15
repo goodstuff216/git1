@@ -1,19 +1,59 @@
 .body{
     width:1440px;
 }
+.head1{
+    background-image: url(/git1/img/index-background-desktop.png);
+    background-repeat:no-repeat;
+    background-position: right 100%;
+    background-size: 50vw 100vh;
+}
 .header{
     display:flex;
     font-family: "oswald";
+    width: auto;
+    height:696px;
+}
+.logophoto{
+    margin-top: 50px;
+    margin-left: 120px;
 }
 .verh{
-
+    display: flex;
 }
 .menulink{
     text-decoration: none;
+    margin-top: 50px;
+    text-align: right;
+    display:flex;
+    white-space: nowrap;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.glav{
+    text-decoration: underline;
+    text-underline-offset: 10px
+}
+.menulink:visited{
+    color:#fff
 }
 .headerul{
     list-style-type: none;
+    display:flex;
+    gap: 40px;
+    margin-left: 900px;
+    font-size: 20px;
 }
 .headerli{
     color: #fff;
+}
+.fotka{
+    background-image: url(/git1/img/index-can.png);
+    background-repeat: no-repeat;
+    background-position: 41vw 15vh;
+}
+.text-container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
 }
