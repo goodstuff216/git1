@@ -50,10 +50,21 @@
     background-image: url(/git1/img/index-can.png);
     background-repeat: no-repeat;
     background-position: 41vw 15vh;
+    display: flex;
 }
-.text-container{
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-    padding: 20px;
+.fotka-text{
+    width: 900px;
+    height: 696px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 100px;
+}
+.div-parent1{
+
+}
+.div-parent2{
+
 }
