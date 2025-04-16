@@ -8,17 +8,11 @@
     background-size: 50vw 100vh;
 }
 .header{
-    display:flex;
     font-family: "oswald";
-    width: auto;
-    height:696px;
 }
 .logophoto{
-    margin-top: 50px;
-    margin-left: 120px;
-}
-.verh{
-    display: flex;
+    margin-top: 53px;
+    margin-left: 110px;
 }
 .menulink{
     text-decoration: none;
@@ -28,13 +22,21 @@
     white-space: nowrap;
     font-size: 20px;
     text-transform: uppercase;
+    font-family: Oswald;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.header-content{
+    margin-top: 14.0625rem;
+    margin-left: 12.5rem;
 }
 .glav{
     text-decoration: underline;
     text-underline-offset: 10px
 }
 .menulink:visited{
-    color:#fff
+    color: #68B738
 }
 .headerul{
     list-style-type: none;
@@ -44,17 +46,53 @@
     font-size: 20px;
 }
 .headerli{
-    color: #fff;
+    color: #68B738
 }
-.fotka{
+.fonphoto{
+
+}
+.header-content{
     background-image: url(/git1/img/index-can.png);
-    background-repeat: no-repeat;
-    background-position: 41vw 15vh;
-    display: flex;
+    background-repeat:no-repeat;
+    background-position: 70% 0px;
+    width:83.125rem;
+    height:43.5rem;
 }
-.fotka-text{
-    width: 900px;
-    height: 696px;
+.header-title{
+    color: rgb(0, 0, 0);
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.header-text{
+    color: rgb(0, 0, 0);
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+.header-button{
+    background-color: rgb(104, 183, 56);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: rgb(255, 255, 255);
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 52px
 }
 .parent {
     display: grid;
@@ -62,9 +100,53 @@
     grid-template-rows: repeat(1, 1fr);
     gap: 100px;
 }
+.text1{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.divptext1{
+    font-family: "oswald";
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.divptext2{
+    font-family: "oswald";
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    background: #68B738;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+    z-index: 0;
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    background: #68B738;
+    border-radius: 50%;
+    top: -20px;
+    left: -20px;
+    z-index: 0;
+}
+.logophotop1{
+    width: 100px;
+}
+.logophotop2{
+    height: 100px;
+    width: 134px;
+    justify-content:
+}
 .div-parent1{
-
+    display:flex;
+    gap: 50px;
 }
 .div-parent2{
-
+    display:flex;
+    gap: 50px;
 }
