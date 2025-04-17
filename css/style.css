@@ -2,10 +2,6 @@
     width:1440px;
 }
 .head1{
-    background-image: url(/git1/img/index-background-desktop.png);
-    background-repeat:no-repeat;
-    background-position: right 100%;
-    background-size: 50vw 100vh;
 }
 .header{
     font-family: "oswald";
@@ -44,6 +40,7 @@
     gap: 40px;
     margin-left: 900px;
     font-size: 20px;
+    position: absolute;
 }
 .headerli{
     color: #68B738
@@ -98,7 +95,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 100px;
+    gap: 400px
 }
 .text1{
     height: 10em;
@@ -110,11 +107,27 @@
     font-family: "oswald";
     font-size: 36px;
     text-transform: uppercase;
+    color: rgb(0, 0, 0);
+font-family: Oswald;
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
 }
 .divptext2{
     font-family: "oswald";
     font-size: 36px;
     text-transform: uppercase;
+    color: rgb(0, 0, 0);
+font-family: Oswald;
+font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
 }
 .circle1{
     width: 100px;
@@ -150,3 +163,52 @@
     display:flex;
     gap: 50px;
 }
+.textt1{
+    color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+width: 467px;
+height: 72px;
+left: 162px;
+top: 962px;
+margin-top: 39px;
+}
+.textt2{
+    width: 457px;
+height: 72px;
+left: 812px;
+top: 962px;
+color: rgb(0, 0, 0);
+font-family: Arial;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 39px;
+}
+.arrowsvg{
+    position: absolute;
+    width: 450px;
+    margin-bottom: 50px;
+    
+}
+.kakrabotaet{
+    height: auto
+}
+.kakrab1{
+    color: rgb(0, 0, 0);
+font-family: Oswald;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+letter-spacing: 0%;
+margin-left: 110px;
+}
+background-image: url(/git1/img/index-background-desktop.png);
+background-repeat:no-repeat;
+background-position: right 100%;
